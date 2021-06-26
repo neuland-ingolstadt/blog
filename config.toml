@@ -2,3 +2,6 @@ baseURL = "https://blog.neuland-ingolstadt.de/"
 languageCode = "de-de"
 title = "Neuland Ingolstadt Blog"
 theme = "paper"
+
+[params]
+  imprint = "https://neuland-ingolstadt.de/impressum.htm"
