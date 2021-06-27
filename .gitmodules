@@ -1,3 +1,3 @@
-[submodule "themes/paper"]
-	path = themes/paper
-	url = https://github.com/neuland-ingolstadt/hugo-paper.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/neuland-ingolstadt/blog-theme.git

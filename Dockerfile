@@ -1,6 +1,7 @@
 FROM klakegg/hugo AS hugo
 
 WORKDIR /src
+ENV HUGO_ENV production
 COPY . .
 RUN hugo
 
