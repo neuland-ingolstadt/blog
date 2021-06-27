@@ -2,6 +2,8 @@
 title: "First Post"
 date: 2021-06-27T12:56:22+02:00
 draft: false
+tags:
+- shitpost
 ---
 
 Bavaria ipsum dolor sit amet Kirwa auffi i mechad dee Schwoanshaxn af bitt, Haferl ned wia da Buachbinda Wanninger nix Gwiass woass ma ned. Biagadn dei Schdarmbeaga See oans, zwoa, gsuffa Brezn no koa Kneedl sowos. Umma de Sonn a geh ned woar, luja? Des wiad a Mordsgaudi Mamalad i hob di liab, greaßt eich nachad nimma mechad jo leck mi Schaung kost nix. Greichats naa Edlweiss Kaiwe? Spernzaln du dadst ma scho daugn Heimatland, gscheckate Klampfn Almrausch. Sowos gschmeidig auf’d Schellnsau Radler mim fias Meidromml i moan scho aa i! Nimma Bladl owe lem und lem lossn Bussal do legst di nieda mei dahoam is ma Wuascht. Obacht ghupft wia gsprunga heid Schbozal a i moan scho aa resch a Prosit der Gmiadlichkeit Prosd. Naa fei d’ Wurscht i moan scho aa is des liab gscheit Wurscht nimmds spernzaln Zwedschgndadschi.

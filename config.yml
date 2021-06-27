@@ -1,0 +1,27 @@
+baseURL: https://blog.neuland-ingolstadt.de/
+languageCode: de-de
+title: Neuland Blog
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: website
+      name: about us
+      url: https://neuland-ingolstadt.de
+      weight: 100
+
+params:
+  imprint: https://neuland-ingolstadt.de/impressum.htm
+  disableThemeToggle: true
+  homeInfoParams:
+    title: Neuland Blog
+    content: Vulnerability writeups and other shitposts
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/neuland-ingolstadt
+    - name: CTFtime
+      url: https://ctftime.org/team/17039
