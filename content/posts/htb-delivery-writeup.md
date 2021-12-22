@@ -1,5 +1,6 @@
 ---
 title: "HackTheBox 'Delivery' Writeup"
+authors: ["0xFFD700", "M4GNV5"]
 date: 2021-03-28T13:37:00+02:00
 draft: false
 tags:

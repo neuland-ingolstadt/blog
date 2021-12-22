@@ -1,5 +1,6 @@
 ---
 title: "Cyber Santa CTF - Bamboozled Challenge Writeup"
+authors: ["M4GNV5"]
 date: 2021-12-05T21:30:00+01:00
 draft: false
 tags:
