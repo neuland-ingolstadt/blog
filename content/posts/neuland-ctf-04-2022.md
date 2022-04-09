@@ -1,7 +1,7 @@
 ---
 title: "Neuland CTF 2022"
 authors: ["0xFFD700", "manuv"]
-date: 2022-04-09T22:30:00+01:00
+date: 2022-04-09T22:30:00+02:00
 draft: false
 tags:
 - ctf
