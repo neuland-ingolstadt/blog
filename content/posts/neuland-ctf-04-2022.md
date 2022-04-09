@@ -167,7 +167,7 @@ def createAuth(s):
 
 Since the code only filters for **root&password=password123'** and AES is a Blockcipher, we can try to trick the Server into generating us the correct hash. The first block (i.e. the first 16 bytes) of this ciphertext is the ciphertext of username=, the ciphertext of this block is also the IV for our second block (CBC Mode). In decryption mode the IV is XORed with the result of the decryption function, we can thus modify bits in the second block by flipping the corresponding bit in the IV.
 
-![](/images/neuland-ctf-04-2022/flipdot.svg)
+![](/images/neuland-ctf-04-2022/flipdot.png)
 </br>
 
 **Python script:**
