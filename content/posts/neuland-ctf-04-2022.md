@@ -202,12 +202,12 @@ One of the requirements for RSA to be secure is to choose an encryption exponent
 
 Let's test if our e and φ(n) are not relatively prime:
 
-k1 = gcd(e1,(p1-1)*(q1-1)) == 2  </br>
-k2 = gcd(e2,(p2-1)*(q2-1)) == 2  </br>
+k1 = gcd(e1,(p1-1)\*(q1-1)) == 2  </br>
+k2 = gcd(e2,(p2-1)\*(q2-1)) == 2  </br>
 --> e is dividable by 2  </br>
 
-t1 = (p1-1)*(q1-1)  </br>
-t2 = (p2-1)*(q2-1)  </br>
+t1 = (p1-1)\*(q1-1)  </br>
+t2 = (p2-1)\*(q2-1)  </br>
 --> has to be devideable by 2  </br>
 
 With at least one common factor found, we can use the Chinese Remainder Theorem to decrypt the cipher.
@@ -375,7 +375,7 @@ The flag is ```nland{741k3r}```.
 *Someone didn't follow best practices.*
 </br>
 
-![capture.pcapng](/files/neuland-ctf-04-2022/capture.pcapng)
+[capture.pcapng](/files/neuland-ctf-04-2022/capture.pcapng)
 </br>
 
 The fastest way to search for the flag in a few hundred network packages is strings and grep:
@@ -394,7 +394,7 @@ HTML decode the last part  ```nland%7Bl375-3ncryp7-3v3ry7h1n6%7D``` and get the 
 
 #### Malware - Easy
 
-![malware.xlsm](/files/neuland-ctf-04-2022/malware.xlsm)
+[malware.xlsm](/files/neuland-ctf-04-2022/malware.xlsm)
 
 When we start up the Excel file we get a prompt to "Enable Editing" if we allow it a bunch of Notepads with the string "Hello World" are spawned.
 
@@ -436,7 +436,7 @@ The flag is ```nland{m41w423_0nfu5c4710n}```.
 *I'm sure I shared the flag with a friend, maybe you can find!*
 </br>
 
-![backup.ab](/files/neuland-ctf-04-2022/backup.ab)
+[backup.ab](/files/neuland-ctf-04-2022/backup.ab)
 
 </br>
 An AB file is a backup of some or all of the data stored on a user's Android device. We can use the Android Debug Bridge (ADB) with the command 
