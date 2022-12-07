@@ -17,19 +17,26 @@ tags:
 [based_meme.txt](/files/neuland-ctf-12-2022/based_meme.txt)
 
 </br>
+
 The task description tells us that we should retrieve a meme from an email that somehow got corrupted. As the name of the challenge implies, the meme is Base64 encoded in the body of the email. Base64 is used to encode binary data like images in HTML emails into ASCII characters. The email body can be fixed in the following way: 
+
 </br>
+
 ![](/images/neuland-ctf-12-2022/html_base64.png)
+
 </br>
 
 Afterwards the email can be opened in an email program or the html part of the email can be opened in the browser. You could also use [CyberChef](https://gchq.github.io/CyberChef/#recipe=Render_Image('Base64')) to render the image. 
+
 </br>
+
 ![](/images/neuland-ctf-12-2022/based_meme.jpg)
 
 </br>
+
 The flag is ```nland{Das_Internet_ist_für_uns_alle_NEULAND_}```.
 
-<br>
+</br>
 
 #### Friend or foe - Medium
 
@@ -82,11 +89,11 @@ The flag format is `nland{<unique-identifier>}`
 
 </br>
 
-**TL;DR**
+##### TL;DR
 
 The pdf file is manipulated. Some `stream` and `endstream` keywords are missing. Add those and the pdf will work again. The flag is the VIN highlighted within the report.
 
-**Detailed version**
+##### Detailed version
 
 The `file` command indicates that this file is a version 1.5 PDF document. We can verify this by looking for the header and the corresponding magic bytes.
 ```
