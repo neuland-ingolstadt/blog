@@ -83,7 +83,7 @@ The flag is `nland{Oxford}`.
 
 95 transactions in total, over 96 accounts. Possible manually, but much faster via script - web3py or similar.
 
-[Jupyter Notebooks Solution](https://github.com/0xFFD700/Neuland-CTF-2022/blob/main/CTF%20Aufgaben/OSINT/Schnitzeljagd%20-%20Medium/solution.ipynb)
+[Jupyter Notebooks Solution](https://github.com/neuland-ingolstadt/Neuland-CTF-2022-Winter/blob/main/CTF%20Aufgaben/OSINT/Schnitzeljagd%20-%20Medium/solution.ipynb)
 
 The flag is `nland{h4ppy_tree_friend}`.
 
