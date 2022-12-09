@@ -135,8 +135,9 @@ The flag is `nland{py7h0n_4l50_h45_by73c0d3}`.
 
 #### Password - Medium
 
-Don't Worry, Relax, Chill and Try harder
-[password.7z](/files/neuland-ctf-12-2022/password.7z)
+*Don't Worry, Relax, Chill and Try harder*
+
+[password](/files/neuland-ctf-12-2022/password)
 
 <br>
 

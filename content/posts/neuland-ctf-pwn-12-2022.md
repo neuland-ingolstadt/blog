@@ -13,12 +13,16 @@ tags:
 
 #### Password Guessing - Easy
 
-*Can you guess the secret password? It changes every time you start the program. There is no chance you get it right. Try your luck! 
+*Can you guess the secret password? It changes every time you start the program. There is no chance you get it right. Try your luck!*
+
 <br>
 
-PS: You definitly need the password to get the flag. There is no way around.*
+*PS: You definitly need the password to get the flag. There is no way around.*
 
-*You can test your solution locally. Connect to the server once it works to retrieve to flag:* <br>
+*You can test your solution locally. Connect to the server once it works to retrieve to flag:* 
+
+<br>
+
 *nc summit.informatik.sexy 8083*
 
 <br>

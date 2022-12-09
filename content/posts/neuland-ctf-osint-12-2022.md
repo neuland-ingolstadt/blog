@@ -22,7 +22,7 @@ tags:
 
 An efficient way to find the origin of images on the Internet is Google Images. We upload the image and find out the person it Hugh Herr.
 
-![](/images/neuland-ctf-12-2022/Solution.png)
+![](/images/neuland-ctf-12-2022/Solution.PNG)
 
 </br>
 
@@ -34,6 +34,7 @@ The flag is `nland{hugh_herr}`.
 
 *A few weeks ago I accidentally inserted a flag while updating the website, but then immediately fixed the error. 
 Can you still find it?*
+
 *https://ctf.neuland-ingolstadt.de/*
 
 </br>

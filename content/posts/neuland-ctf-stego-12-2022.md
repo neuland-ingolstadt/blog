@@ -53,6 +53,7 @@ The flag is `nland{un1c0d3_4r7_15_fun}`.
 
 #### Color - Medium
 *Can you find the hidden message?*
+
 ![](/images/neuland-ctf-12-2022/color.png)
 
 </br>
@@ -117,7 +118,7 @@ The flag is `nland{dog}`.
 
 <br>
 
-[dog.png](/files/neuland-ctf-12-2022/dog.png)
+[dog.png](/images/neuland-ctf-12-2022/dog.png)
 
 <br>
 
