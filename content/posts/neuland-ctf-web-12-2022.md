@@ -14,20 +14,28 @@ tags:
 #### Scavenger hunt - Easy
 
 *Can you find all the pieces of the flag?*
+
 </br>
 
 The first part of the flag can be found in the website's page source in the header metatag content.
 
 ![](/images/neuland-ctf-12-2022/meta.png)
+
 </br>
+
 The second part of the flag is hidden in a cookie called "flag".
+
 ![](/images/neuland-ctf-12-2022/keks.png)
+
 </br>
+
 The last part of the flag is hidden in the robots.txt file. This file can be used to specify whether and how the website may be visited by a web crawler.
 
 ![](/images/neuland-ctf-12-2022/robots.png)
+
 </br>
-The flag is ```nland{c0nc47_411_7h3_p4rts}```.
+
+The flag is `nland{c0nc47_411_7h3_p4rts}`.
 
 <br>
 
@@ -37,10 +45,7 @@ The flag is ```nland{c0nc47_411_7h3_p4rts}```.
 
 The challenge is a login form built on SQLite. It does not use any kind of prepared statements or sanitizing - the parameters are just added to the query directly. Enter `' OR 1=1; --` as the password to get the flag.
 
-The flag is 
-```
-nland{c4n7-b3l13v3-th15-57i11-h4pp3n5}
-```
+The flag is `nland{c4n7-b3l13v3-th15-57i11-h4pp3n5}`.
 
 <br>
 
@@ -48,6 +53,7 @@ nland{c4n7-b3l13v3-th15-57i11-h4pp3n5}
 *Keep it simple, right? Just use existing tools to build upon.*
 
 </br>
+
 The challenge is a simple web-based ping tool. If you enter `google.com`, in the background, it calls `ping -c 4 google.com` and returns the results. You can exploit this by following up with arbitrary shell commands, for example google.com; ls will execute `ping -c 4 google.com; ls` and subsequently list all the files in the working directory. Enter `google.com; cat flag.txt` to get the flag.
 
 The flag is `nland{5h377s-4r3-3v3rywh3r3}`.
@@ -59,6 +65,7 @@ The flag is `nland{5h377s-4r3-3v3rywh3r3}`.
 *There's a reason why JSON became so popular. The flag is in /opt/next/flag.txt.*
 
 </br>
+
 The challenge is a web-based viewer for a custom XML format. The flag location is provided in the challenge text (`/opt/next/flag.txt`). An example file is also provided.
 
 You need to use XML External Entities to inject the flag into one of the parsed fields. Do inject the contents of `/opt/next/flag.txt` into the `first-name` field, save the following as an `.xml` file and upload it:
@@ -134,6 +141,7 @@ The flag is `nland{w3lc0m3_70_y0ur_n3w_4cc0un7}`.
 *This challenge has four different parts. The source code is always the same. The parts build on each other and you should work on them in their order.*
 
 *Once you are logged in it is also possible to buy stuff. Have a look at our offers.*
+
 <br>
 
 [into_the_backrooms.zip](/files/neuland-ctf-12-2022/into_the_backrooms.zip)
@@ -184,6 +192,7 @@ The flag is `nland{w3lc0m3_70_y0ur_n3w_4cc0un7}`.
 *This challenge has four different parts. The source code is always the same. The parts build on each other and you should work on them in their order.*
 
 *The checkout function is still under development. Only the admin account is allowed to use it for testing. Don't even try to find a loophole and to dig deeper.*
+
 <br>
 
 [into_the_backrooms.zip](/files/neuland-ctf-12-2022/into_the_backrooms.zip)
@@ -203,6 +212,7 @@ api.get('/checkout', (req, res) => {
 However, we don't have access to it. We have control over the `uid` cookie and can change it to whatever value we want. We need to know the password of the account the uid belongs to to be able to log into the account. This means we can't just change the uid to the admin account as well. We are also not able to find the password of the account or to hijack the cookies. However, there is a small detail in the authentification process that we can abuse. 
 
 Authentification process:
+
 ```js
 api.use((req, res, next) => {
 	req.userUid = -1
@@ -238,7 +248,9 @@ The admin validation in the checkout function does use the parseInt() function t
 if(parseInt(req.uid) != 0 || req.userOrder.includes("("))
 ```
 
-We can exploit this. We need to find a number which is equal to 0 if passed to parseInt as a string. At the same time the number must be equal to our uid as well when being juggled to a number during the authentification process. Can we find such a number? <br>
+We can exploit this. We need to find a number which is equal to 0 if passed to parseInt as a string. At the same time the number must be equal to our uid as well when being juggled to a number during the authentification process. Can we find such a number? 
+
+<br>
 
 The scientific notation or e notation will be helpful here. It is used to express extremely large or small numbers. The number 1,000,000 can be written as 1 * 10<sup>6</sup> or 1e6. We can convert any number to scientific notation and they will evaluate to the same number. If the uid of our registered account is 1, we can represent it as 0.1e1. We can change the value of the uid cookie to this value and we will still be able to log in. The uid value in the cookie will be passed as a string. The authentification middleware function will still allow us to log in as "0.1e1" == 1.
 
@@ -249,6 +261,7 @@ if(user[0].uid == uid && user[0].password == passwd)  // 1 == "0.1e1"
 The uid for the requests will then be set to the provided value "0.1e1".
 
 The admin validation for the checkout function is coded differently as already mentioned.
+
 ```js
 if(parseInt(req.uid) != 0 || req.userOrder.includes("(")) // parseInt("0.1e1") == 0
 ```
@@ -280,9 +293,7 @@ The final request will look like this:
 
 ![](/images/neuland-ctf-12-2022/checkout.png)
 
-The flag is ```
-nland{y0u_w3r3_n07_5upp053d_70_b3_4bl3_70_u53_7h3_ch3ck0u7_func710n_y37}
-```
+The flag is `nland{y0u_w3r3_n07_5upp053d_70_b3_4bl3_70_u53_7h3_ch3ck0u7_func710n_y37}`.
 
 <br>
 
@@ -291,6 +302,7 @@ nland{y0u_w3r3_n07_5upp053d_70_b3_4bl3_70_u53_7h3_ch3ck0u7_func710n_y37}
 *This challenge has four different parts. The source code is always the same. The parts build on each other and you should work on them in their order.*
 
 *It seems like you were somehow able to execute the checkout function. Impressive. But seriously, you need to stop. There is now way that you are able to read the last flag. Don't even try.*
+
 <br>
 
 [into_the_backrooms.zip](/files/neuland-ctf-12-2022/into_the_backrooms.zip)
@@ -429,7 +441,4 @@ The `create_fd` function reads the flag file over and over again and creates the
 
 The `read_flag` function tries to read the flag from the file desciptors. We are not guaranteed a hit on the first try. This is because the `create_fd` function first needs to create the open file descriptors. After a while there are enough file descriptors so that we will be able to find an open one before the timeout and can read the flag. We will execute the two functions at the same time in separate threads in a loop. Eventually the script will print out the flag.
 
-The flag is 
-```
-nland{wh0_70ld_y0u_4b0u7_pr0c_4nd_f1l3_d35cr1p70r5?}
-```
+The flag is `nland{wh0_70ld_y0u_4b0u7_pr0c_4nd_f1l3_d35cr1p70r5?}`.

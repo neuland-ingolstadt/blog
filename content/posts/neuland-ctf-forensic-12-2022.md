@@ -34,7 +34,7 @@ Afterwards the email can be opened in an email program or the html part of the e
 
 </br>
 
-The flag is ```nland{Das_Internet_ist_für_uns_alle_NEULAND_}```.
+The flag is `nland{Das_Internet_ist_für_uns_alle_NEULAND_}`.
 
 </br>
 
@@ -45,13 +45,12 @@ The flag is ```nland{Das_Internet_ist_für_uns_alle_NEULAND_}```.
 ![](/images/neuland-ctf-12-2022/RFID-Card.jpeg)
 
 </br>
-</br>
 
 According to the description it is an access card, this leads to the assumption that it is an RFID card. If we shine a light through the card, the antenna and chip can be seen. The easiest way to read the data is the NFC reader of a cell phone. This can be done using an app or by activating NFC and bringing the mobile phone into contact with the card. The mobile phone will then be able to read the data and shows the flag.
 
 ![](/images/neuland-ctf-12-2022/RFID-Flag.jpeg)
 
-The flag is ```nland{1ff_m42k_2}```.
+The flag is `nland{1ff_m42k_2}`.
 
 </br>
 
@@ -63,17 +62,24 @@ The flag is ```nland{1ff_m42k_2}```.
 </br>
 
 When opening the PDF, a window with the text "You are hacked!" is displayed and the calculator of the end device opened. 
+
 </br>
+
 ![](/images/neuland-ctf-12-2022/PDF.png)
+
 </br>
+
 If the PDF is opened in a text editor, the responsible JavaScript function can be found in line 32. 
+
 ```
 /JS (app.alert\("You are hacked!"\); app.launchURL\("START C:/\Windows/\system32/\calc.exe", true\); console.println\("bmxhbmR7ajR2NDVjMjFwNzo3aDNfOTAwZF9wNDI3NX0="\);)
 ```
+
 At the end of the function a Base64 string is written to the console which can be converted to the flag with [CyberChef FromBase64](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=Ym14aGJtUjdhalIyTkRWak1qRndOem8zYUROZk9UQXdaRjl3TkRJM05YMD0).
+
 </br>
 
-The flag is ```nland{j4v45c21p7:7h3_900d_p4275}```.
+The flag is `nland{j4v45c21p7:7h3_900d_p4275}`.
 
 </br>
 
@@ -96,10 +102,12 @@ The pdf file is manipulated. Some `stream` and `endstream` keywords are missing.
 ##### Detailed version
 
 The `file` command indicates that this file is a version 1.5 PDF document. We can verify this by looking for the header and the corresponding magic bytes.
+
 ```
 $ xxd tamperd.pdf| head -n 1
 00000000: 2550 4446 2d31 2e35 0a25 e2e3 cfd3 0a34 %PDF-1.5.%.....4
 ```
+
 Based on [Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures), the hex signature of a PDF document is "25 50 44 46 2D". As we can see in the output above, this is valid in our case. So the usual manipulation of magic bytes is not the case here 
 
 When you open the PDF file in a PDF viewer, you see a white screen. So the structure is messed up.
@@ -159,9 +167,11 @@ startxref
 117563
 %%EOF
 ```
+
 The above snippet shows us the PDF 1.5 header, an object (`obj`) including its end (`endobj`), the beginning of another object and the end of the PDF document which contains a reference to the beginning of the xref table (`startxref`) and the trailer (`trailer`).
 
 Scrolling through the file, we see a pattern. We create an object (`obj`), have some additional information in it, and exit the object (`endobj`). However, some of the objects contain stream sections that are rounded off by `stream` and `endstream`. These keywords are usually arranged around these large pieces of data like
+
 ```
 xµVÛrÓ0}÷Wì£ÄL]-«oÐ¦3íb`à!'ê [...]
 ```

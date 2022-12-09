@@ -13,11 +13,14 @@ tags:
 
 #### Password Guessing - Easy
 
-*Can you guess the secret password? It changes every time you start the program. There is no chance you get it right. Try your luck! <br>
+*Can you guess the secret password? It changes every time you start the program. There is no chance you get it right. Try your luck! 
+<br>
+
 PS: You definitly need the password to get the flag. There is no way around.*
 
 *You can test your solution locally. Connect to the server once it works to retrieve to flag:* <br>
 *nc summit.informatik.sexy 8083*
+
 <br>
 
 [password_guessing.c](/files/neuland-ctf-12-2022/password_guessing.c)
@@ -56,6 +59,7 @@ The flag is ``nland{51mpl3_45_7h47}`.
 
 *You can test your solution locally. Connect to the server once it works to retrieve to flag:* <br>
 *nc summit.informatik.sexy 8081*
+
 <br>
 
 [h4ck3r.c](/files/neuland-ctf-12-2022/h4ck3r.c)
@@ -92,6 +96,7 @@ The flag is `nland{y0u_4r3_4_r34l_h4ck3r_n0w}`.
 
 *You can test your solution locally. Connect to the server once it works to retrieve to flag:* <br>
 *nc summit.informatik.sexy 8082*
+
 <br>
 
 [Log4Flag.zip](/files/neuland-ctf-12-2022/Log4Flag.zip)
@@ -154,6 +159,7 @@ public class Log4Flag {
     }
 }
 ```
+
 We can see that the code is using log4j. This should ring a bell about the zero day exploit in log4j that was published about a year ago [CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-44228). Knowing this and looking at the challenge name, it is kind of obvious what we should do now. We need to use this vulnerability to find the flag.
 
 We can also see that the logger is used if our input contains the words "yes" and "please". 

@@ -27,16 +27,18 @@ The flag is hidden in the exif tag artist. This can be read using the strings or
 
 </br>
 
-The flag is ```nland{w32_h47_un5_v322473n_m374d473n}```.
+The flag is `nland{w32_h47_un5_v322473n_m374d473n}`.
 
 </br>
 
 #### Quick response - Easy
 
 *The flag is hidden in the text file.*
+
 <br>
 
 [quick_response.txt](/files/neuland-ctf-12-2022/quick_response.txt)
+
 <br>
 
 QR code stands for quick response code. That is what the challenge aims for. The text file contains unicode characters that will form a QR code with the right line wrap. Find an editor or a terminal that allows you to adjust the line wrap and play a bit around until you are left with a scannable QR code. The result will look like this:
@@ -56,11 +58,14 @@ The flag is `nland{un1c0d3_4r7_15_fun}`.
 </br>
 
 In the image we can see the outlines of circles and stars that look suspiciously like a QR code. The special thing about QR Codes is that they contain a lot of redundancy and error-handling, so changing shapes does not affect functionality. If we change the color of the outer area to white, we get a scannable QR code containing the flag.
+
 </br>
+
 ![](/images/neuland-ctf-12-2022/QR-Scan.jpeg)
 
 </br>
-The flag is ```nland{411_814ck_3v32y7h1n9}```.
+
+The flag is `nland{411_814ck_3v32y7h1n9}`.
 
 <br>
 
@@ -71,6 +76,7 @@ The flag is ```nland{411_814ck_3v32y7h1n9}```.
 *Submit your answer in lowercase and wrapped in nland{}.*
 
 *Please avoid playing the audio over and over again. It gets a bit annoying. There is a way to get the answer without playing the audio*
+
 <br>
 
 [transmission.wav](/files/neuland-ctf-12-2022/transmission.wav)
@@ -108,6 +114,7 @@ The flag is `nland{dog}`.
 *You might have trust issues after you worked on this challenge. I do not take any responsibility for that.*
 
 *Nothing is like it seems.*
+
 <br>
 
 [dog.png](/files/neuland-ctf-12-2022/dog.png)
@@ -129,7 +136,10 @@ zip2john dog.zip > hash.txt
 john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
 ```
 
-The password is `ITRUSTNO1`. <br>
+The password is `ITRUSTNO1`. 
+
+<br>
+
 Now we can extract the `secret.mp3`. It is not a valid mp3. Opening `secret.mp3` in a hexeditor we can see that the first bytes are set to zero followed by the hex representation of JFIF. 
 
 ![](/images/neuland-ctf-12-2022/hexeditor.png)

@@ -14,6 +14,7 @@ tags:
 #### Sanity Check - Easy
 
 *If you were here from the start, it's hard to miss the flag. :)*
+
 <br>
 
 Neuland CTF started off with the opening and an introduction. During the introduction we showed what the flags look like and how to submit them. The flag was used for demonstration.
@@ -25,6 +26,7 @@ The flag is `nland{w3lc0m3_70_n3ul4nd_c7f}`.
 #### Wardriving - Easy
 
 *We've got to secure our perimeter. Evil lurks everywhere, even in our own office (W003).*
+
 <br>
 
 This challenge requires you to walk around the campus. In our office, there’s a router providing an unencrypted `neuland` network. This network is reachable from outside the building. You need to connect to this network and open the gateway IP (`http://192.168.1.1`) in your browser to get the flag.
@@ -38,6 +40,7 @@ The flag is `nland{th3-4tt4ck3r-1s-n34rby}`.
 *A friend of mine sent me this nucleotide sequence. He told me that the corresponsidng enzyme supposedly supports muscle growth. That's excatly what I need. I need the amino acid sequence for my research and to try it out. Me friend however told me that I will have to work for it. I hope you didn't skip your biology lessions. Can you convert this nucleotide sequence into a amino acid sequence for me?*
 
 *Flag format: nland{Uppercase amino acid sequence}*
+
 <br>
 
 [sequence.txt](/files/neuland-ctf-12-2022/sequence.txt)
@@ -52,6 +55,7 @@ MASKVQLVFLFLFLCAMWASPSAASRDEPNDPMMKRFEEWMAEYGRVYKDDDEKMRRFQIFKNNVKHIETFNSRNENSYT
 ```
 
 The translation is the amino acid sequence we are looking for. It does belong to the enzyme bromelain which can be found in pineapples. It helps to body to split proteins. Bromelain is used in supplements. However, in the most cases this won't help you gain more muscels. I just picked it for the sake of the challenge.
+
 <br>
 
 The programming approach is to write a short scripts that reads the nucleotide sequence and translates it into the amino acid sequence. The codon table defines the neccessary mappings for the translation. The codon table can be found online. A simple python script that would do the job can be found below:
@@ -95,7 +99,4 @@ with open("dna_seq.txt", "r") as f:
 
 It will print out the same amino acid sequence as the OSINT approach did if you remove the trailing underscore.
 
-The flag is 
-```
-nland{MASKVQLVFLFLFLCAMWASPSAASRDEPNDPMMKRFEEWMAEYGRVYKDDDEKMRRFQIFKNNVKHIETFNSRNENSYTLGINQFTDMTKSEFVAQYTGVSLPLNIEREPVVSFDDVNISAVPQSIDWRDYGAVNEVKNQNPCGSCWSFAAIATVEGIYKIKTGYLVSLSEQEVLDCAVSYGCKGGWVNKAYDFIISNNGVTTEENYPYLAYQGTCNANSFPNSAYITGYSYVRRNDERSMMYAVSNQPIAALIDASENFQYYNGGVFSGPCGTSLNHAITIIGYGQDSSGTKYWIVRNSWGSSWGEGGYVRMARGVSSSSGVCGIAMAPLFPTLQSGANAEVIKMVSET}`
-```
+The flag is `nland{MASKVQLVFLFLFLCAMWASPSAASRDEPNDPMMKRFEEWMAEYGRVYKDDDEKMRRFQIFKNNVKHIETFNSRNENSYTLGINQFTDMTKSEFVAQYTGVSLPLNIEREPVVSFDDVNISAVPQSIDWRDYGAVNEVKNQNPCGSCWSFAAIATVEGIYKIKTGYLVSLSEQEVLDCAVSYGCKGGWVNKAYDFIISNNGVTTEENYPYLAYQGTCNANSFPNSAYITGYSYVRRNDERSMMYAVSNQPIAALIDASENFQYYNGGVFSGPCGTSLNHAITIIGYGQDSSGTKYWIVRNSWGSSWGEGGYVRMARGVSSSSGVCGIAMAPLFPTLQSGANAEVIKMVSET}`.
