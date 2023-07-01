@@ -1,4 +1,4 @@
-FROM klakegg/hugo AS hugo
+FROM klakegg/hugo:0.110.0-busybox AS hugo
 
 WORKDIR /src
 ENV HUGO_ENV production
