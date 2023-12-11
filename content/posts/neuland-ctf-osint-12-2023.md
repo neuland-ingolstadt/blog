@@ -18,7 +18,9 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 </br>
 
 ## Geoguessr - Easy
-*Can you find out which mountains I vacationed in last year? (Flag format nland{name of  mountainous area} in all lowercase)*
+*Can you find out which mountains I vacationed in last year?*
+</br>
+*Flag format: nland{name of mountainous area} in all lowercase*
 
 ![](/images/neuland-ctf-12-2023/Geoguessr.jpg)
 
@@ -31,7 +33,9 @@ The flag is `nland{besseggen}` or `nland{jotunheimen}`.
 <br>
 
 ## For old times sake - Easy
-*What did the yellow dot on the Google front page draw on the window on Christmas 2016? Flag format nland{<drawing>} in all lowercase*
+*What did the yellow dot on the Google front page draw on the window on Christmas 2016?*
+</br>
+*Flag format: nland{\<drawing\>} in all lowercase*
 
 For tasks that require web content at an earlier stage, the [Wayback Machine](https://web.archive.org/web/20161224150735/https://www.google.de/) is a good place to start. If we select the web address of Google on 24.13.2016, we can see that a star is drawn on the glass.
 
@@ -40,7 +44,9 @@ The flag is `nland{star}`.
 <br>
 
 ## Dail in - Hard
-*We are looking for one of the accomplices of the well-known group @0xc0c0c0ctf, which has been involved in multiple Bitcoin scams. We know that they talk to each other regularly on the phone. Find his phone number. Flag format: nland{<phone number>}*
+*We are looking for one of the accomplices of the well-known group @0xc0c0c0ctf, which has been involved in multiple Bitcoin scams. We know that they talk to each other regularly on the phone. Find his phone number.*
+</br>
+*Flag format: nland{\<phone number\>}*
 
 </br>
 
@@ -53,17 +59,17 @@ The flag is `nland{00133731415}`.
 ## Traveler - Medium
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
-*Look what I have found: https://www.youtube.com/watch?v=_fMYrE9Qn7E
+*Look what I have found: https://www.youtube.com/watch?v=_fMYrE9Qn7E*
 <br>
-Can you provide me the destination land of the trip and his home adress?*
+*Can you provide me the destination land of the trip and his home adress?*
 
 <br>
 
-*Please submit the flag in the following format: 
+*Please submit the flag in the following format:*
 <br>
-nland{destination_home-zip-code_home-street}
+*nland{destination_home-zip-code_home-street}*
 <br>
-Example: nland{Denmark_85049_Esplanade}*
+*Example: nland{Denmark_85049_Esplanade}*
 
 <br>
 
@@ -79,7 +85,7 @@ This means that we have already solved the first part of the challenge. Next, we
 
 <br>
 
-![](/images/neuland-ctf-12-2023/traveler_2.png)
+![](/images/neuland-ctf-12-2023/traveler_2.jpg)
 
 <br>
 

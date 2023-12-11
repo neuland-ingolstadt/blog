@@ -54,7 +54,7 @@ Author: [Jonny](https://github.com/Baikuya)</br>
 
 *There is always a safe place to return :).*
 
-[Safe_Return.c](../files/neuland-ctf-12-2023/Safe_Return.c)
+[Safe_Return.c](/files/neuland-ctf-12-2023/Safe_Return.c)
 
 </br>
 

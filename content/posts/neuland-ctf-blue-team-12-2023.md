@@ -52,8 +52,9 @@ The flag is `nland{D4s_H4b3n_W1R_s0_pR09r4MM13Rt,_1n_3xc3L}`.
 ## Broken File - Easy
 Author: [Kevin](https://github.com/k-gomez) </br>
 
-*This file is broken. Can you find out what was used to "create" it? </br>
-The flag is in the format nland{<your-input-without-spaces>}.*
+*This file is broken. Can you find out what was used to "create" it?*
+</br>
+*Flag format: nland{\<your-input-without-spaces\>}*
 
 [broken.zip](/files/neuland-ctf-12-2023/broken.zip)
 
@@ -104,9 +105,11 @@ The flag is `nland{1_l1k3_f1l3h34d3Rs}`.
 </br>
 
 ## Malware Beaconing - Medium
-*Malware beaconing is a C2 technique to establish continuous communication between malware and a server controlled by the attacker. Find the host infected with malware. (Flag format: nland{<IP>})*
+*Malware beaconing is a C2 technique to establish continuous communication between malware and a server controlled by the attacker. Find the host infected with malware.*
+</br>
+*Flag format: nland{\<IP\>}*
 
-[traffic.csv](/files/neuland-ctf-12-2023/traffic.zip)
+[traffic.zip](/files/neuland-ctf-12-2023/traffic.zip)
 
 </br>
 
