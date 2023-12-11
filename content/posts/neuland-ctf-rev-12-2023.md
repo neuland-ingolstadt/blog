@@ -92,8 +92,8 @@ The flag is `nland{Kekw_Andi_C0P1UM_xD}`.
 </br>
 
 ## TicTacToe - Easy
-*State of Game.*
-</br>
+*State of Game.*</br>
+
 *java -jar TicTacToe.jar*
 
 [TicTacToe.jar](/files/neuland-ctf-12-2023/TicTacToe.jar)
@@ -260,8 +260,8 @@ The flag is `nland{w0w_y0u_f0und_th3_g4lf_1_w4s_l00k1ng_for!}`.
 </br>
 
 ## License Key - Hard
-*I really want to use the app for free.*
-</br>
+*I really want to use the app for free.*</br>
+
 *Flag format: nland{\<Valid Activation Code\>}*
 
 </br>

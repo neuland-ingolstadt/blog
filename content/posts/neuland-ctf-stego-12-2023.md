@@ -63,8 +63,8 @@ Upon opening the file, we are greeted by a lot of cute emojis looking at us. The
 ## Immutable Mirror - Hard
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
-*Capture The Flag!*
-</br>
+*Capture The Flag!*</br>
+
 *0x7502A60536068033cDfBAFB1E51C38a3b4470bc3*
 
 </br>
