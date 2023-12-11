@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Geoguessr - Easy
+## Geoguessr - Easy
 *Can you find out which mountains I vacationed in last year? (Flag format nland{name of  mountainous area} in all lowercase)*
 
 ![](/images/neuland-ctf-12-2023/Geoguessr.jpg)
@@ -30,7 +30,7 @@ The flag is `nland{besseggen}` or `nland{jotunheimen}`.
 
 <br>
 
-#### For old times sake - Easy
+## For old times sake - Easy
 *What did the yellow dot on the Google front page draw on the window on Christmas 2016? Flag format nland{<drawing>} in all lowercase*
 
 For tasks that require web content at an earlier stage, the [Wayback Machine](https://web.archive.org/web/20161224150735/https://www.google.de/) is a good place to start. If we select the web address of Google on 24.13.2016, we can see that a star is drawn on the glass.
@@ -39,7 +39,7 @@ The flag is `nland{star}`.
 
 <br>
 
-#### Dail in - Hard
+## Dail in - Hard
 *We are looking for one of the accomplices of the well-known group @0xc0c0c0ctf, which has been involved in multiple Bitcoin scams. We know that they talk to each other regularly on the phone. Find his phone number. Flag format: nland{<phone number>}*
 
 </br>
@@ -50,7 +50,7 @@ The flag is `nland{00133731415}`.
 
 <br>
 
-#### Traveler - Medium
+## Traveler - Medium
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *Look what I have found: https://www.youtube.com/watch?v=_fMYrE9Qn7E

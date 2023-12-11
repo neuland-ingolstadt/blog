@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Sanity Check - Easy
+## Sanity Check - Easy
 *Can be found on the introductory PowerPoint.*
 
 </br>
@@ -30,7 +30,7 @@ The flag is `nland{neuland-ctf-2023}`.
 
 </br>
 
-#### Lockpicking - Medium
+## Lockpicking - Medium
 *Open a lock with an instrument other than the proper key.
 Pick up a lock, pick, and tension wrench at the front and bring back the opened lock to the CTF orga to get the flag.*
 

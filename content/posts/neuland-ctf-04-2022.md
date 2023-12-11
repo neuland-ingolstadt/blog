@@ -13,11 +13,11 @@ tags:
 
 On the 2nd of April, Neuland held it's first own CTF in the Technische Hochschule Ingolstadt. About 40 participants spent the following 8 hours solving challenges and making new friends. To round off the event, we wrote a blog post detailing the solutions to the challenges. If you want to try them yourself, here is the link to the corresponding [GitHub repository](https://github.com/neuland-ingolstadt/Neuland-CTF-2022). Have fun!
 
-### **Cryptography**
+# **Cryptography**
 
 </br>
 
-#### RSA - Easy
+## RSA - Easy
 
 *Can you read my secret message?*
 </br>
@@ -67,7 +67,7 @@ The flag is ```nland{254_15_n07_50_84d}```.
 
 </br>
 
-#### Multi Time Pad - Easy
+## Multi Time Pad - Easy
 
 *A friend said he "padded" the following message and says this cryptography is UNBREAKABLE!!! I know he does not like long keys though, so maybe you can decrypt the message?*
 </br>
@@ -95,7 +95,7 @@ As we can see the key seems to repeat itself after 4 bytes, XOR'ing our message 
 
 </br>
 
-#### Flipdot - Medium
+## Flipdot - Medium
 
 *To be extra secure, we started to AES encrypt our usernames and passwords.
 Now we can tell you that the password for the Encryption server is "password123" and the username is "root" and you still can't log in.*
@@ -186,7 +186,7 @@ The flag is ```nland{810ck_c1ph325_423_fun}```.
 
 </br>
 
-#### Relatively - Hard
+## Relatively - Hard
 
 *I send my friend the same message twice with a different module and public key, what is our secret?*
 
@@ -279,11 +279,11 @@ The flag is ```nland{R3latively_Prim3}```.
 
 </br>
 
-### **Steganography**
+# **Steganography**
 
 </br>
 
-#### Cookbook - Easy
+## Cookbook - Easy
 
 *Each recipe requires several ingredients.*
 </br>
@@ -315,7 +315,7 @@ nland{mu171_f4c702_3nc0d1n9}
 
 </br>
 
-#### Blindspot - Medium
+## Blindspot - Medium
 
 *The quieter you become, the more you are able to see.*
 </br>
@@ -330,7 +330,7 @@ nland{72y_h42d32}
 
 </br>
 
-#### Pillowtalk - Hard
+## Pillowtalk - Hard
 
 *Maybe it would have been easier to put my secret into pastebin.*
 </br>
@@ -368,11 +368,11 @@ The flag is ```nland{741k3r}```.
 
 </br>
 
-### **Forensic**
+# **Forensic**
 
 </br>
 
-#### Wireshark - Easy
+## Wireshark - Easy
 
 *Someone didn't follow best practices.*
 </br>
@@ -394,7 +394,7 @@ HTML decode the last part  ```nland%7Bl375-3ncryp7-3v3ry7h1n6%7D``` and get the 
 
 </br>
 
-#### Malware - Easy
+## Malware - Easy
 
 [malware.xlsm](/files/neuland-ctf-04-2022/malware.xlsm)
 
@@ -433,7 +433,7 @@ The flag is ```nland{m41w423_0nfu5c4710n}```.
 
 </br>
 
-#### Call me - Medium
+## Call me - Medium
 
 *I'm sure I shared the flag with a friend, maybe you can find!*
 </br>
@@ -455,7 +455,7 @@ The flag is ```nland{m08113ph0n3}```.
 
 </br>
 
-#### Fun with Flags - Hard
+## Fun with Flags - Hard
 
 *Your buddy Masahiro sent you a flag.*
 
@@ -609,11 +609,11 @@ specified mask (Code 1) turned out to actually be mask 2.
 
 </br>
 
-### **OSINT**
+# **OSINT**
 
 </br>
 
-#### Campus Life - Baby
+## Campus Life - Baby
 
 *Sometimes, newsletters contain essential information.*
 </br>
@@ -624,7 +624,7 @@ The flag is hidden in the latest issue of the University Campus Life E-Mail news
 
 </br>
 
-#### Office  - Easy
+## Office  - Easy
 
 *We left our access keys at the office. Maybe it's time for a walk?*
 </br>
@@ -635,7 +635,7 @@ We can find the flag taped to the window of the Neuland Office.
 
 </br>
 
-#### Setup - Easy
+## Setup - Easy
 
 *The hacker "0xc0c0c0c" has been quite active on social media lately.*
 </br>
@@ -650,7 +650,7 @@ The flag is ```nland{0p324710n5_53cu217y}```.
 
 </br>
 
-#### Klotzkette   - Easy
+## Klotzkette   - Easy
 
 *Oh no, the hackerman stole our money :(*
 </br>
@@ -687,7 +687,7 @@ The flag is ```nland{c4n7_h1d3_7h3_bl0ckz}```.
 
 </br>
 
-#### Wireless   - Easy
+## Wireless   - Easy
 
 *You can't see it, you can't taste it, but there is something in the air.*
 </br>
@@ -701,7 +701,7 @@ The flag is ```nland{d0n7-f0r637-70-fl055}```.
 
 </br>
 
-#### Certificate Transparency   - Easy
+## Certificate Transparency   - Easy
 
 *Have we updated our certificates recently? Transparency is important.*
 </br>
@@ -714,7 +714,7 @@ The flag is ```nland{7r4n5p4r3ncy-15-k3y} ```.
 
 </br>
 
-#### Social engineering - Medium
+## Social engineering - Medium
 
 *Flag:* 
 ```
@@ -736,11 +736,11 @@ The flag is ```nland{bodo_nagel_ada}```.
 
 </br>
 
-### **Web**
+# **Web**
 
 </br>
 
-#### Super Secure Login - Easy
+## Super Secure Login - Easy
 
 *We need to get to our access code.*
 </br>
@@ -780,7 +780,7 @@ The flag is ```nland{fea7cf41-ad4c-4de6-952b-4e8085d08b00}```.
 
 </br>
 
-#### Super Secure User Check  - Easy
+## Super Secure User Check  - Easy
 
 *I lost my access codes. How can I get them back?*
 </br>
@@ -798,11 +798,11 @@ The flag is ```nland{f0f4d87c-97b9-4390-9567-3df819fa0c25}```.
 
 </br>
 
-### **Pwn**
+# **Pwn**
 
 </br>
 
-#### Lecture Pick - Easy
+## Lecture Pick - Easy
 
 *Your university set up this server allowing you to pick a lecture. Can you extract the secret information?*
 </br>
@@ -849,7 +849,7 @@ Depending on the order of `flag` and `courses` on the stack (influenced by the c
 
 </br>
 
-#### Lecture Pick - Medium
+## Lecture Pick - Medium
 
 *Your university set up this server allowing you to pick a lecture. This time the secret does not seem to be on the Stack. Can you still extact it?*
 </br>
@@ -938,7 +938,7 @@ print(result)
 
 </br>
 
-#### Minecraft - Medium
+## Minecraft - Medium
 
 *My buddy set up a Minecraft server. I wonder what else is on their machine?*
 </br>

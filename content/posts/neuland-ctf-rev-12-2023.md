@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Login - Easy
+## Login - Easy
 *Log into my account to get the flag.*
 
 [login.exe](/files/neuland-ctf-12-2023/login.exe)
@@ -34,7 +34,7 @@ The flag is `nland{NEw_P422w0rD_c4NN07_8E_7HE_54mE_45_Y0u_0ld_p422W0rd}`.
 
 </br>
 
-#### Easy Bypass - Easy
+## Easy Bypass - Easy
 Author: [Jonny](https://github.com/Baikuya) </br>
 
 *Can you Bypass the authentication and find my Flag?*
@@ -91,7 +91,7 @@ The flag is `nland{Kekw_Andi_C0P1UM_xD}`.
 
 </br>
 
-#### TicTacToe - Easy
+## TicTacToe - Easy
 *State of Game. </br>
 java -jar TicTacToe.jar*
 
@@ -109,7 +109,7 @@ The flag is `nland{tH1nk_0Ut51d3_tH3_B0x}`.
 
 </br>
 
-#### Stacked - Easy
+## Stacked - Easy
 Author: [Kevin](https://github.com/k-gomez)</br>
 
 *I found this binary in a br0 forum. I don't know whats happening here...*
@@ -258,7 +258,7 @@ The flag is `nland{w0w_y0u_f0und_th3_g4lf_1_w4s_l00k1ng_for!}`.
 
 </br>
 
-#### License Key - Hard
+## License Key - Hard
 *I really want to use the app for free. 
 Flag format nland{\<Valid Activation Code\>}*
 

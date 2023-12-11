@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### This is fine - Easy
+## This is fine - Easy
 ![](/images/neuland-ctf-12-2023/this-is-fine.jpg)
 
 </br>
@@ -32,7 +32,7 @@ The flag is `nland{7H3y_5ho7_4_GOr1LL4_fOR_GOD554k3}`.
 
 </br>
 
-#### Rick roll - Medium
+## Rick roll - Medium
 *I found a new way to save my ZIP files safely. Definitely not hackable.*
 
 [rick_roll.avi](/files/neuland-ctf-12-2023/rick_roll.avi)
@@ -47,7 +47,7 @@ The flag is `nland{1nf1N1t3_St0rag3_gL1tch}`.
 
 </br>
 
-#### (^_^) - Easy
+## (^_^) - Easy
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *A friend of mine sent me this and is waiting for my feedback. Unfortunately, I am confused. Can you help me out?*
@@ -60,7 +60,7 @@ Upon opening the file, we are greeted by a lot of cute emojis looking at us. The
 
 </br>
 
-#### Immutable Mirror - Hard
+## Immutable Mirror - Hard
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *Capture The Flag!

@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Accounting - Easy
+## Accounting - Easy
 *An employee from the finance department downloaded an accounting template from the Internet; now he is writing an e-mail to the helpdesk that his computer is behaving strangely.*
 
 [Abrechnung_2023.xlsm](/files/neuland-ctf-12-2023/Abrechnung_2023.xlsm)
@@ -49,7 +49,7 @@ The flag is `nland{D4s_H4b3n_W1R_s0_pR09r4MM13Rt,_1n_3xc3L}`.
 
 </br>
 
-#### Broken File - Easy
+## Broken File - Easy
 Author: [Kevin](https://github.com/k-gomez) </br>
 
 *This file is broken. Can you find out what was used to "create" it? </br>
@@ -65,7 +65,7 @@ The flag is `nland{iPhone13mini}`.
 
 </br>
 
-#### Bad Ducky - Easy
+## Bad Ducky - Easy
 *You found a USB stick on the floor, of course you plug it into your private computer. What was the previous owner up to?*
 
 </br>
@@ -82,7 +82,7 @@ The flag is `nland{Wer_hat_uns_verraten?_Metadaten!}`.
 
 </br>
 
-#### Broken File - Medium
+## Broken File - Medium
 Author: [Kevin](https://github.com/k-gomez)</br>
 
 *Get the file from the challenge "Broken File - Easy" and reconstruct it.*
@@ -103,7 +103,7 @@ The flag is `nland{1_l1k3_f1l3h34d3Rs}`.
 
 </br>
 
-#### Malware Beaconing - Medium
+## Malware Beaconing - Medium
 *Malware beaconing is a C2 technique to establish continuous communication between malware and a server controlled by the attacker. Find the host infected with malware. (Flag format: nland{<IP>})*
 
 [traffic.csv](/files/neuland-ctf-12-2023/traffic.zip)
@@ -119,22 +119,22 @@ To solve the task, we receive a CSV file that contains network traffic from the 
 - To evade detection, malware beacon payloads can be encoded or encrypted.
 - A jitter is often used to add randomness to the beaconing communication. The jitter is set to a time interval in which bounds the beacon generates a random time to request the next instruction.
 
-##### Domain Generation Algorithm (DGA)
+### Domain Generation Algorithm (DGA)
 A DGA is a function that generates new domains on demand. Since botnet malware needs a server to get commands from to work correctly, using only one fixed domain or IP is often too risky for the attacker. The domain or IP can be blocked or taken down when detected, bringing an entire botnet to a halt. We should look for websites with cheap top-level domains and random letter/number combinations.
 
-##### Traffic Information
+### Traffic Information
 This includes a high amount of HTTP POST requests. Malware beacons regularly check the C2 infrastructure and ask for new commands. Therefore, the devices are sorted and displayed according to the number of HTTP POST requests. The same applies to a high number of messages
 with an HTTP 404 error code, meaning that a page or file was not found. For example, if a DGA  is used to generate the next C2 domain, it may already be owned or not set up yet, and the request returns an HTTP 404 response.
 
-##### Periodic-based Detection
+### Periodic-based Detection
 Periodic-based detection focuses on detecting malware beacons. Since these queries contact the attacker via the C2 infrastructure at regular intervals, these signals can be recognized in the network logs. The difficulty lies in discerning C2 communications among the multitude of non-malicious network activities. There are different approaches, such as the recognition by Discrete Fourier Transforms, which can recognize multiple distinct period lengths in a given time series. Alternatively, calculating the signal-to-noise ratio that compares the level of a harmonic signal to the background noise and therefore recognizes the periodic malware beaconing as a signal. The advantage of this approach
 is that even unknown malware can be detected this way. However, attackers have also evolved and developed methods such as configuring a jitter to distort the regular queries. A jitter randomizes the time delta a beacon sleeps between contacting the C2 infrastructure. For example, a beacon is set to ask for new commands every 60 minutes. By adding a jitter of 50%, beaconing calls can now vary by up to 30 minutes. Interactions would occur within a time delta interval of 30 to 90 minutes.
 This variance in timing makes detecting beacons more difficult since they are less predictable.
 
-##### Packet Size and Backdoor
+### Packet Size and Backdoor
 With malware beaconing, numerous small packets are sent if the C2 infrastructure does not have new commands for the malware. A smaller data average additionally indicates malware beaconing since user traffic usually involves data-intensive pictures and media. A backdoor is the part of the malware that allows the attacker to gain access or control a system after infecting a device. In the case of malware with a beacon function, the backdoor is said to be activated when the C2 infrastructure sends the first command to the beacon. If the backdoor still needs to be activated, the beacon traffic looks uniform. The malware asks the C2 infrastructure for new commands at regular intervals, which then responds with a sleep command. The answer is always the same and, therefore, always has the same size when the data is transmitted. However, the backdoor has probably been activated if there are other data transfers of different sizes.
 
-##### Open Source Software
+### Open Source Software
 Alternatively, specially designed open-source software such as [Hunting Elastic Stack](https://github.com/Cyb3r-Monk/RITA-J) (HELK) or [RITA](https://github.com/activecm/rita) can also be used. 
 
 The connections showing most indicators are from 172.31.133.55 to 31.13.82.26 (7asjne3s.buzz). It is a cheap top-level domain with a website name with DGA use characteristics. Connections were established every hour and contained small, uniform amounts of data. This is only interrupted twice, with the amount of data indicating the activation of a backdoor. RITA and HELK recognize this connection as a malware beacon with an almost perfect score.
@@ -143,7 +143,7 @@ The flag is `nland{172.31.133.55}`.
 
 </br>
 
-#### KeePass
+## KeePass - Easy
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *Last year, we captured a memory dump of a locked Keepass process along with its corresponding Keepass database. Unfortunately, our attempts to unlock it have not been successful. Can you assist us to open the database?*

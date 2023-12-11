@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Bitwise operator - Easy
+## Bitwise operator - Easy
 
 *The key to happiness is love.*
 ```
@@ -26,7 +26,7 @@ The flag is `nland{m491c41_817w153_0p324702}`.
 
 </br>
 
-#### Black box - Medium
+## Black box - Medium
 
 *My friend gave me a black box to communicate.*
 
@@ -46,7 +46,7 @@ The flag is `nland{sam}`.
 
 </br>
 
-#### RSA - Medium
+## RSA - Medium
 
 *Can you help decrypt the message?*
 
@@ -65,7 +65,7 @@ There was a similar task last semester. This time the title already reveals that
 We know n, e, q and p which can be used to decrypt the message.
 Let's take a closer look at how RSA works.
 
-##### Key Generation:
+### Key Generation:
 1. Select  p,q (prime numbers and p!=q)
 2. Calculate n = p * q
 3. Calculate phi(n) = ( p - 1 ) * ( q - 1 )
@@ -74,13 +74,13 @@ Let's take a closer look at how RSA works.
 6. Public Key {e,n}
 7. Private Key {d,n}
 
-##### Encryption: 
+### Encryption: 
 C = pow( M , e) % n
 
-##### Decryption:
+### Decryption:
 M = pow(C , d) % n
 
-##### Python script:
+### Python script:
 
 ```
 from Crypto.Util.number import *
@@ -101,7 +101,7 @@ The flag is `nland{7h15_15_f1n3}`.
 
 <br>
 
-#### Truly magical operator - Medium
+## Truly magical operator - Medium
 
 *This time it won't be as easy. Can you figure out the key yourself?*
 

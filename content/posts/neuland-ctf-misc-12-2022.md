@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Sanity Check - Easy
+## Sanity Check - Easy
 
 *If you were here from the start, it's hard to miss the flag. :)*
 
@@ -23,7 +23,7 @@ The flag is `nland{w3lc0m3_70_n3ul4nd_c7f}`.
 
 <br>
 
-#### Wardriving - Easy
+## Wardriving - Easy
 
 *We've got to secure our perimeter. Evil lurks everywhere, even in our own office (W003).*
 
@@ -35,7 +35,7 @@ The flag is `nland{th3-4tt4ck3r-1s-n34rby}`.
 
 <br>
 
-#### For the Gains - Medium
+## For the Gains - Medium
 
 *A friend of mine sent me this nucleotide sequence. He told me that the corresponsidng enzyme supposedly supports muscle growth. That's excatly what I need. I need the amino acid sequence for my research and to try it out. Me friend however told me that I will have to work for it. I hope you didn't skip your biology lessions. Can you convert this nucleotide sequence into a amino acid sequence for me?*
 

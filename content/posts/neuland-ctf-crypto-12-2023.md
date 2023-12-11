@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Secrets - Easy
+## Secrets - Easy
 *Part 1: ```aynaq{o4f3``` </br>
 Part 2: ```..--.- -.... ....- ..--.- .---- ..... ..--.- -. --- --... ..--.- ....- ..--.-``` </br>
 Part 3: ```M05DcllwNzFvbn0=``` </br>*
@@ -34,7 +34,7 @@ The flag is `nland{b4s3_64_15_NO7_4_3NCrYp71on}`.
 
 </br>
 
-#### Hash - Easy
+## Hash - Easy
 *MD5: e10adc3949ba59abbe56e057f20f883e </br>
 SHA1: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 </br>
 LM: 598DDCE2660D3193AAD3B435B51404EE </br>
@@ -59,7 +59,7 @@ The flag is `nland{123456_password_qwerty}`.
 
 </br>
 
-#### Baby - Easy
+## Baby - Easy
 *Can you read my message without the private key?*
 
 ```
@@ -91,7 +91,7 @@ The flag is `nland{ROll1n9_your_Own_r54}`
 
 </br>
 
-#### All the Colors of Christmas - Medium
+## All the Colors of Christmas - Medium
 *Santa has a message for you.
 (Flag format nland{<message>} in all lowercase)*
 

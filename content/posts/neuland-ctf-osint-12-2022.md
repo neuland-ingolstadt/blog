@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Finders keepers - Easy
+## Finders keepers - Easy
 
 *Can you find the missing person?*
 *Flag format nland{<first name\>_<last name\>} in all lowercase*
@@ -30,7 +30,7 @@ The flag is `nland{hugh_herr}`.
 
 </br>
 
-#### Time Machine - Easy
+## Time Machine - Easy
 
 *A few weeks ago I accidentally inserted a flag while updating the website, but then immediately fixed the error. 
 Can you still find it?*
@@ -49,7 +49,7 @@ The flag is `nland{7h3_1n732n37_n3v32_f029375}`.
 
 <br>
 
-#### Lost connection - Medium
+## Lost connection - Medium
 
 *One of our Neuland members went on a trip to London. I tried to call her a few days ago but she didn't pick up. I am a bit worried as she missed our last meeting as well and we haven't heard back from her.*
 
@@ -86,7 +86,7 @@ The flag is `nland{Oxford}`.
 
 <br>
 
-#### Schnitzeljagd im Görli -Medium
+## Schnitzeljagd im Görli -Medium
 
 *Let's go! →→→↓ 0x60B268593E71E3ADa6Dc33982d9b2bEBB38C65C1*
 *Tipps: We missed the tree by a hair's breadth! Bounds-Checking is essential work.*
@@ -106,7 +106,7 @@ The flag is `nland{h4ppy_tree_friend}`.
 
 <br>
 
-#### Polyglot - Hard
+## Polyglot - Hard
 
 *I received an anonymous, mysterious letter. It told me to look for a Polyglot on my way to find the flag. It also mentioned the following email address: friedrichvonhacker@gmail.com.*
 

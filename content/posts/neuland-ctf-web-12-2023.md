@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Obfuscation 1 - Easy
+## Obfuscation 1 - Easy
 [Obfuscation-1.js](/files/neuland-ctf-12-2023/Obfuscation-1.js)
 
 </br>
@@ -34,7 +34,7 @@ The flag is `nlan{no7_sur3_1F_F1Rs7_y34R_pro9R4MM3R_oR_o8fUsc473d_m4lw4R3}`.
 
 </br>
 
-#### Obfuscation 2 - Hard
+## Obfuscation 2 - Hard
 [Obfuscation-2.js](/files/neuland-ctf-12-2023/Obfuscation-2.js)
 
 </br>
@@ -220,7 +220,7 @@ The flag is `nland{08FUScaT10N_0R_Ex0t1c_SYntAx}`.
 
 <br>
 
-####  InfoSec Academy
+## InfoSec Academy - Easy
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *At InfoSec Academy, we are dedicated to shaping the next generation of cybersecurity professionals. Our mission is to empower individuals with the knowledge, skills, and expertise needed to navigate the dynamic and ever-evolving world of digital security.*
@@ -266,7 +266,7 @@ The flag is `nland{Info5eC_acaDemY_h0peS_yOuR_$tAY_On_0Ur_hOMeP@9e_Wa5_p1EaS4nt}
 
 <br>
 
-####  Digital Odyssey
+## Digital Odyssey - Medium
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *Greetings, stranger. You've been granted provisional access to our secret club. To start, simply log in with the username "guest" and the password "guest". Your journey through the digital odyssey begins now. Proceed with curiosity.*
@@ -331,7 +331,7 @@ The flag is `nland{yOu_ArE_N0t_OuR_aDMinI5tr4T0r!}`.
 
 <br>
 
-#### Review
+## Review - Hard
 Author: [Fabi](https://github.com/fabifighter007)</br>
 
 *On the page we find a review form.*

@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Password Guessing - Easy
+## Password Guessing - Easy
 
 *Can you guess the secret password? It changes every time you start the program. There is no chance you get it right. Try your luck!*
 
@@ -57,7 +57,7 @@ The flag is ``nland{51mpl3_45_7h47}`.
 
 <br>
 
-#### h4ck3r - Medium
+## h4ck3r - Medium
 
 *Can you find a way to change `secret_code`? I you do so I will reward you with a flag.*
 
@@ -94,7 +94,7 @@ The flag is `nland{y0u_4r3_4_r34l_h4ck3r_n0w}`.
 
 <br>
 
-#### Log4Flag - Hard
+## Log4Flag - Hard
 
 *There is this program that is supposed to give me the flag. However, even if I beg for it and say the magic word, it won't return it. Try to lookup the flag.*
 

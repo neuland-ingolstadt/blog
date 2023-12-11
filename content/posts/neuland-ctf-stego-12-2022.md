@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Meta - Easy
+## Meta - Easy
 
 ![](/images/neuland-ctf-12-2022/nature.jpg)
 
@@ -31,7 +31,7 @@ The flag is `nland{w32_h47_un5_v322473n_m374d473n}`.
 
 </br>
 
-#### Quick response - Easy
+## Quick response - Easy
 
 *The flag is hidden in the text file.*
 
@@ -51,7 +51,7 @@ The flag is `nland{un1c0d3_4r7_15_fun}`.
 
 <br>
 
-#### Color - Medium
+## Color - Medium
 *Can you find the hidden message?*
 
 ![](/images/neuland-ctf-12-2022/color.png)
@@ -70,7 +70,7 @@ The flag is `nland{411_814ck_3v32y7h1n9}`.
 
 <br>
 
-#### Moon transmission - Medium
+## Moon transmission - Medium
 
 *I received this transmission from our moon station. The result looks odd. The technology we use for the transmissions is pretty old. It was already used back in the days. It's probably just a disturbance. It has been a long shift for me. So it might as well be me and I did something wrong while decoding. Can you have a look as well and tell me whats wrong with it? Something is out of place.*
 
@@ -110,7 +110,7 @@ The flag is `nland{dog}`.
 
 <br>
 
-#### Trust issues - Hard
+## Trust issues - Hard
 
 *You might have trust issues after you worked on this challenge. I do not take any responsibility for that.*
 

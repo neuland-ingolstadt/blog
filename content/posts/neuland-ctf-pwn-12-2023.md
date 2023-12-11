@@ -17,7 +17,7 @@ Download challenges: [Neuland CTF Repository](https://github.com/neuland-ingolst
 
 </br>
 
-#### Higher and Lower - Easy
+## Higher and Lower - Easy
 *No one has guessed my number yet, maybe you can find another way to get the flag.*
 
 [higher_lower.c](/files/neuland-ctf-12-2023/higher_lower.c)
@@ -32,7 +32,7 @@ The flag is `nland{practical_application_abandoned}`.
 
 </br>
 
-#### Secure4Sure - Easy
+## Secure4Sure - Easy
 *Works as intended?*
 
 [Secure4Sure.c](/files/neuland-ctf-12-2023/Secure4Sure.c)
@@ -49,7 +49,7 @@ The flag is `nland{DIN13432}`.
 
 </br>
 
-#### Safe Return
+## Safe Return - Hard
 Author: [Jonny](https://github.com/Baikuya)</br>
 
 *There is always a safe place to return :).*

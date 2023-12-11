@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Based meme - Easy
+## Based meme - Easy
 
 *Can you help me retrieve this awsome meme?*
 
@@ -39,7 +39,7 @@ The flag is `nland{Das_Internet_ist_für_uns_alle_NEULAND_}`.
 
 </br>
 
-#### Friend or foe - Medium
+## Friend or foe - Medium
 
 *A Neuland member lost his office access card, can you duplicate the key?*
 
@@ -55,7 +55,7 @@ The flag is `nland{1ff_m42k_2}`.
 
 </br>
 
-#### PDF - Medium
+## PDF - Medium
 
 *I received a weird PDF from a friend.*
 
@@ -85,7 +85,7 @@ The flag is `nland{j4v45c21p7:7h3_900d_p4275}`.
 
 </br>
 
-#### Automotive Report - Medium
+## Automotive Report - Medium
 
 We have been notified of a vehicle accident! As forensic investigators, we need to take a look at the report that was generated. However, the file looks broken to me. I bet the police department we got the report from is busy streaming on Instagram or TikTok right now. Here's where they messed up when creating the report....
 
@@ -97,11 +97,11 @@ The flag format is `nland{<unique-identifier>}`
 
 </br>
 
-##### TL;DR
+### TL;DR
 
 The pdf file is manipulated. Some `stream` and `endstream` keywords are missing. Add those and the pdf will work again. The flag is the VIN highlighted within the report.
 
-##### Detailed version
+### Detailed version
 
 The `file` command indicates that this file is a version 1.5 PDF document. We can verify this by looking for the header and the corresponding magic bytes.
 

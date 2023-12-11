@@ -11,7 +11,7 @@ tags:
 - cybersecurity
 ---
 
-#### Strings - Easy
+## Strings - Easy
 
 *The flag is hidden somewhere in this binary.*
 
@@ -49,7 +49,7 @@ The flag is `nland{f0und_y0u}`.
 
 <br>
 
-#### Tracer - Easy
+## Tracer - Easy
 
 *Can you trace down the admin password? Strings won't help you this time. <br>
 Flag format: nland{admin-password}*
@@ -90,7 +90,7 @@ The flag is `nland{42ceec6b744d41bc8044fee516003183}`.
 
 <br>
 
-#### Snek Encoder - Medium
+## Snek Encoder - Medium
 
 *I encoded the flag with a custom script that I wrote. I lost the source code to it. I just found this odd file in the project folder. It seems to describe operations and commands in some way to encode the flag. Maybe this helps you to find a way to decode the flag.
 This is the encoded flag: `urfrg}qy6f-jZ.e-'U]((QSi&!POf`.*
@@ -133,7 +133,7 @@ The flag is `nland{py7h0n_4l50_h45_by73c0d3}`.
 
 <br>
 
-#### Password - Medium
+## Password - Medium
 
 *Don't Worry, Relax, Chill and Try harder*
 
